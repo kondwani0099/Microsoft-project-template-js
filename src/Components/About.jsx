@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/soldering.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "PCB";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm an Engineering student studying at The Copperbel University.As a passionate Mechatronics Engineer, I've dedicated myself to advancing technology through innovative projects. At Copperbelt University, I've led initiatives such as developing a predictive AI model for tomato disease detection with the Kudima AI App and creating a vision-based robotic system for fruit sorting. These projects exemplify my commitment to leveraging Python, machine learning, and embedded systems to tackle real-world challenges. My experience extends to internships at Arcus Investment Zambia and Probase Group, where I honed my skills in PCB design and software development. Through these endeavors, I've cultivated a holistic understanding of technology's potential to transform industries and improve lives.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -33,10 +33,10 @@ const description =
 const skillsList = [
   "Web design",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Mobile App Developer",
+  "Machine Learning Engineer",
+  "Data Science",
+  "Embedded systems and Automation",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my Engineering experience I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
   return (
